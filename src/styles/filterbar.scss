@@ -1,0 +1,41 @@
+.filterbar {
+
+  &__container {
+    background-color: #fff;
+    padding: 20px 15px;
+    box-shadow: 4px 4px 7px rgba(0,0,0,0.15);
+    border-radius: 12px;
+  }
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__divider {
+    width: 1px;
+    height: 100px;
+    background-color: rgb(172, 172, 172);
+  }
+
+  &__option {
+    margin: auto;
+
+    p {
+      color: #555;
+      font-weight: 600;
+    }
+  }
+
+  &__btn {
+    margin: 0 10px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    box-sizing: content-box;
+    background-color: #7065ef;
+    color: #fff;
+  }
+
+  &__select {
+    width: 200px;
+  }
+}
